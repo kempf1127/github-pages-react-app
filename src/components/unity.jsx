@@ -10,7 +10,7 @@ class Game extends React.Component {
     // paths are relative from your index file.
 
     this.unityContent = new UnityContent(
-      "unity/Build/test.json",
+      "unity/Build/testWithInfo.json",
       "unity/Build/UnityLoader.js"
     );
   }
